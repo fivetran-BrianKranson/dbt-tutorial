@@ -12,8 +12,8 @@ jobs:
    steps:
      - name: run models
        command: dbt run
-     - name: test models
-       command: dbt test
+#     - name: test models
+#       command: dbt test
 
  - name: nightly
    schedule: '0 0 * * *'
